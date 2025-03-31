@@ -8,7 +8,7 @@ function App() {
           "Mobile"
       ];
 
-  return <div><ListGroup items={items}/></div>
+  return <div><ListGroup items={items} heading="Cities" /></div>
 }
 
 export default App;
